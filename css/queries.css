@@ -1,6 +1,14 @@
 
 
+@media only screen and (max-width: 1500px){
+
+    .changing_text{
+        top: 70%;
+        left:70%
+    }
+}
 /*Big tablet to 1200 pixels*/
+
 @media only screen and (max-width: 1200px){
 
     .changing_text{
@@ -34,25 +42,25 @@
     }
     .heading_primary_main
     {
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 500;
         letter-spacing: 15px;
     }
     .heading_primary_sub
     {
-        padding-left:30px;
+        padding-left:70px;
         font-size: 15px;
         font-weight: 500;
         letter-spacing: 5px;
     }
 .changing_primary_main
 {
-    font-size: 10px;
+    font-size: 20px;
 }
 .changing_primary_sub
 {
    
-    font-size: 8px;
+    font-size: 12px;
 }
 }
 /*small phone:from 0 to 480 pixels*/
@@ -60,7 +68,7 @@
     .changing_text{
         top: 75%;
         left:50%;
-        width: 400px;
+        width: 300px;
     }
     .heading_primary_main
     {
@@ -77,10 +85,10 @@
     }
 .changing_primary_main
 {
-    font-size: 10px;
+    font-size: 15px;
 }
 .changing_primary_sub
 { 
-    font-size: 8px;
+    font-size: 10px;
 }
 }

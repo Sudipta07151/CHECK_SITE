@@ -29,15 +29,16 @@ const slogans_footer=["Lao Tzu","Mohammed","Mark Twain","Danny Kaye","Dalai Lama
 
 
 
+
 change_sub_header=function(header,footer)
 {
     let random=Math.random();
     let len=header.length;
     const get_head=document.querySelector(".changing_primary_main");
     const get_foot=document.querySelector(".changing_primary_sub");
-    console.log(get_head.innerText);
+   /* console.log(get_head.innerText);*/
     let store=Math.round(random*(len-1));
-    console.log(store);
+    /*console.log(store);*/
     get_head.innerText="\""+header[store]+"\"";
     get_foot.innerText='~'+footer[store]+'~';
 }

@@ -52,5 +52,32 @@
 }
 /*small phone:from 0 to 480 pixels*/
 @media only screen and (max-width:480px){
+    .changing_text{
+        top: 75%;
+        left:50%;
+        width: 400px;
+    }
+    .heading_primary_main
+    {
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 15px;
+    }
+    .heading_primary_sub
+    {
+        padding-left:30px;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 5px;
+    }
+.changing_primary_main
+{
+    font-size: 10px;
+}
+.changing_primary_sub
+{
+   
+    font-size: 8px;
+}
 
 }
